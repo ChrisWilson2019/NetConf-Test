@@ -15,21 +15,12 @@ This repository contains a Python script to test NETCONF connectivity on network
 
 ---
 
-## Usage
-
-1. M# Netconf Test Script
-
-This repository contains a Python script to test NETCONF connectivity on network devices.
-
----
-
 ## Description
 
 `netconf_test_script.py` performs the following:
 
 1. Prompts the user to enter the IP address of a network device.
-2. Checks if the device is reachable on TCP port 830 (the default NETCONF port).
-3. If the port is open, initiates a NETCONF SSH session.
+2. Checks if the device is reachable on TCP port 830 (the default NETCONF port).3. If the port is open, initiates a NETCONF SSH session.
 4. If the device is unreachable or the port is closed, it provides an error message.
 
 ---
