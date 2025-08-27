@@ -1,1 +1,4 @@
-README.md linguist-documentation
+*.py linguist-detectable=true
+*.md linguist-detectable=false
+*.sh linguist-detectable=false
+
